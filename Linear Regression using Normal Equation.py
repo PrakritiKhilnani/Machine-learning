@@ -49,7 +49,9 @@ def metrics(predictions,test_y):
 
     #calculating mean absolute error
     MAE = np.mean(np.abs(predictions-test_y))
+    return MAE
 
 mae = metrics(predictions, test_y)
 print("Mean Absolute Error: ", mae)
 
+print(np.size(X,axis=0))
