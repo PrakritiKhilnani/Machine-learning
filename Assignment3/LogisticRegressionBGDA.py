@@ -1,5 +1,5 @@
 # This is a python code of Logistic Regression or Classification,it estimates an applicants probability of getting admission to an institution based on the scores
-# of 2 examinations.
+# of 2 examinations, without Feature Scaling.
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
